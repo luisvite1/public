@@ -1,0 +1,56 @@
+/* font import */
+  @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Work+Sans&display=swap');
+/* general config */
+*{
+    --fontprimary: 'League Gothic', sans-serif;
+    --fontsecundary:'Work Sans', sans-serif;
+    --TitleColor:#0077B6;
+}
+html{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+/* Title section styles */
+header{
+    min-height: 800; 
+}
+h1{
+    font-family: var(--fontprimary);
+    text-transform: uppercase;
+    color: var(--TitleColor);
+    font-weight: 100;
+    font-size: 8em;
+    margin: 0%;
+    padding:210px 100px 279px 100px;
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0%;
+    padding: 0%;
+}
+.nav ul li {
+    display: inline;
+    list-style:none;
+    font-size:1rem;
+    font-weight: 100;
+    font-weight:lighter;
+    font-family: var(--fontsecundary);
+    text-transform: capitalize;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: var(--TitleColor);
+}
+ 
+/* Atencion section styles */
+/* Equipo section styles */
+/* Contacto section styles */
+
+
+
+
+/* Horarios section styles */
